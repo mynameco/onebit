@@ -2812,7 +2812,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="Au-Read"/>
+      <a name="label" val="Alu-Read"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(1060,600)" name="Pin">
@@ -2826,7 +2826,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="ALU">
     <a name="circuit" val="ALU"/>
-    <a name="clabel" val="ALU"/>
+    <a name="clabel" val="Alu"/>
     <a name="clabelup" val="west"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(220,300)" to="(410,300)"/>
