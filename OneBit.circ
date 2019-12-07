@@ -2985,4 +2985,61 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Input"/>
     </comp>
   </circuit>
+  <circuit name="Demux2">
+    <a name="circuit" val="Demux2"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(280,220)" to="(370,220)"/>
+    <wire from="(280,160)" to="(440,160)"/>
+    <wire from="(440,350)" to="(470,350)"/>
+    <wire from="(440,320)" to="(470,320)"/>
+    <wire from="(440,160)" to="(440,320)"/>
+    <wire from="(370,220)" to="(400,220)"/>
+    <wire from="(400,280)" to="(400,300)"/>
+    <wire from="(370,220)" to="(370,370)"/>
+    <wire from="(440,320)" to="(440,350)"/>
+    <wire from="(580,310)" to="(660,310)"/>
+    <wire from="(580,360)" to="(660,360)"/>
+    <wire from="(400,220)" to="(400,250)"/>
+    <wire from="(370,370)" to="(470,370)"/>
+    <wire from="(400,300)" to="(470,300)"/>
+    <wire from="(510,360)" to="(550,360)"/>
+    <wire from="(510,310)" to="(550,310)"/>
+    <comp lib="1" loc="(580,360)" name="NOT Gate"/>
+    <comp lib="0" loc="(660,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output 1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(510,360)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(580,310)" name="NOT Gate"/>
+    <comp lib="0" loc="(280,220)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Address"/>
+    </comp>
+    <comp lib="0" loc="(280,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Input"/>
+    </comp>
+    <comp lib="1" loc="(510,310)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(400,280)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(660,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Output 0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+  </circuit>
 </project>
