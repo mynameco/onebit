@@ -368,7 +368,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="6" loc="(29,74)" name="Text">
-      <a name="text" val="[010] Rom-&gt;B (Data) "/>
+      <a name="text" val="[010] Rom-&gt;B (D : Data)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(500,170)" name="Tunnel">
@@ -438,7 +438,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="C"/>
     </comp>
     <comp lib="6" loc="(30,93)" name="Text">
-      <a name="text" val="[011] Rom-&gt;C (Data)"/>
+      <a name="text" val="[011] Rom-&gt;C (D : Data)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(70,260)" name="Pin">
@@ -513,7 +513,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="C"/>
     </comp>
     <comp lib="6" loc="(29,54)" name="Text">
-      <a name="text" val="[001] Rom-&gt;A (Data)"/>
+      <a name="text" val="[001] Rom-&gt;A (D : Data)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(650,230)" name="Probe">
@@ -538,7 +538,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp loc="(590,610)" name="AluOpt"/>
     <comp lib="6" loc="(30,154)" name="Text">
-      <a name="text" val="[110] Ram-&gt;C (Address)"/>
+      <a name="text" val="[110] Ram-&gt;C (D : Address)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(880,140)" name="Tunnel">
@@ -546,11 +546,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="R"/>
     </comp>
     <comp lib="6" loc="(30,114)" name="Text">
-      <a name="text" val="[100] Add-&gt;C (S\P)"/>
+      <a name="text" val="[100] Add-&gt;C (D : S\P)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="6" loc="(30,133)" name="Text">
-      <a name="text" val="[101] C-&gt;AB (A\B)"/>
+      <a name="text" val="[101] C-&gt;AB (D : A\B)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(1050,220)" name="Probe">
@@ -583,7 +583,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="R"/>
     </comp>
     <comp lib="6" loc="(30,175)" name="Text">
-      <a name="text" val="[111] C-&gt;Ram (Address)"/>
+      <a name="text" val="[111] C-&gt;Ram (D : Address)"/>
       <a name="halign" val="left"/>
     </comp>
     <comp lib="0" loc="(500,30)" name="Tunnel">
@@ -1480,8 +1480,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(370,180)" name="NOT Gate"/>
   </circuit>
-  <circuit name="Alu">
-    <a name="circuit" val="Alu"/>
+  <circuit name="ALU">
+    <a name="circuit" val="ALU"/>
     <a name="clabel" val="Alu"/>
     <a name="clabelup" val="west"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
